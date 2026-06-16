@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">clickdrop</string>
+    <string name="title_activity_main">clickdrop</string>
+    <string name="package_name">com.anywheredl.app</string>
+    <string name="custom_url_scheme">com.anywheredl.app</string>
+</resources>
