@@ -2,7 +2,8 @@
 __pycache__/
 *.pyc
 venv/
-downloads/
+/downloads/
+backend/downloads/
 ffmpeg.exe
 ffprobe.exe
 
@@ -12,3 +13,5 @@ node_modules/
 # OS
 .DS_Store
 Thumbs.db
+.neon
+.env.local
