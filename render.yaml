@@ -1,10 +1,10 @@
 services:
   - type: web
     name: clickdrop-api
-    runtime: docker
+    runtime: node
     rootDir: backend
-    dockerfilePath: Dockerfile
-    dockerContext: .
+    buildCommand: pnpm install && pnpm prisma:generate && pnpm build
+    startCommand: pnpm prisma:deploy && node dist/main
     plan: free
     region: frankfurt
     envVars:
